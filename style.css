@@ -1,0 +1,62 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.container {
+    display: grid;
+    gap: 30px;
+    padding: 25px;
+}
+
+.main-progress-wrapper {
+    display: flex;
+    background-color: #EBEBEB;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.progress {
+    box-shadow: 0px 0px 0px 2px #888888;
+    width: 0%;
+    border-radius: 20px;
+    transition: all .7s .3s;
+    position: relative;
+}
+
+.green {
+    background-color: #BCE17D;
+}
+
+.yellow {
+    background-color: #FCD678;
+}
+
+.blue {
+    background-color: #A0D3F1;
+}
+
+.red {
+    background-color:#FE8C79;
+}
+
+.white {
+    background-color: #ffffff
+}
+
+p {
+    position: absolute;
+    margin: 0;
+    right: 10px;
+    top: 3px;
+}
+
+button {
+    margin: auto;
+    width: 80px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px #888888;
+}
